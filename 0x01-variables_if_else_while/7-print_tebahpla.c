@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* Main -Entry point
+* main -Entry point
 *
 * Return: 0
 */
@@ -14,5 +14,5 @@ for (; reverse >= 97; reverse--)
 	putchar(reverse);
 	}
 	putchar(10);
-	return (0);
+return (0);
 }
