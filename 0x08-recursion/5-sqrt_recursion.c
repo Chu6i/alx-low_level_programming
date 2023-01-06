@@ -3,7 +3,7 @@
  * assist - A func that returns the square root of a no to _sqrt_recursion
  * @n: the no to find the square root
  * @m: the square root
- * return: the natural sqrt for sucess or -1 for error
+ * Return: the natural sqrt for sucess or -1 for error
  */
 
 int assist(int n, int m)
