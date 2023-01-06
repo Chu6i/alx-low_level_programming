@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * assist - a func that returns the natural square root of a no to -sqrt_recursion
+ * assist - a func that returns the square root of a no to -sqrt_recursion
  * @n: the no to find the square root
  * @m: the square root
  * return: the natural sqrt for sucess or -1 for error
