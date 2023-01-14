@@ -16,7 +16,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	ptarray = calloc(nmemb, sizeof(size));
+	ptarray = calloc(nmemb, size);
 
 	if (ptarray == NULL)
 	{
