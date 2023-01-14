@@ -56,7 +56,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		return (NULL);
 	}
-
 	for (count = 0; count < sostr1; count++)
 	{
 		ptstr[count] = s1[count];
@@ -66,6 +65,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		ptstr[sostr1 + count] = s2[count];
 	}
 	ptstr[sostr - 1] = '\0';
-
 	return (ptstr);
 }
