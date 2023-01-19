@@ -5,6 +5,7 @@
  * @size: The number of elements in the array
  * @cmp: A pointer to the function to be used to compare values
  * @array: The set of numbers inputed
+ * Return: -1
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
@@ -18,9 +19,9 @@ int int_index(int *array, int size, int (*cmp)(int))
 			compare = cmp(array[count]);
 				if (compare != 0)
 				{
-				return(count);
+				return (count);
 				}
 		}
 	}
-	return -1;
+	return (-1);
 }
