@@ -22,11 +22,8 @@ int _strlen(const char *str)
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int sum = 0;
-	int i = 0;
+	int sum = 0, i = 0;
 	int len = _strlen(b);
-
-	if (*b == '\0')
 
 	for (; i < len; i++)
 	{
